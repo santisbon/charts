@@ -3,7 +3,7 @@ entries:
   pihole:
   - apiVersion: v2
     appVersion: latest
-    created: "2023-03-14T13:04:04.624441-05:00"
+    created: "2023-08-13T14:40:19.971809-05:00"
     description: A Helm chart for installing Pi-hole on Kubernetes
     digest: 75c5264347ce0fe7277dba2800c92a21ae8946ca8d3b9caaf7dfb836eda37b49
     name: pihole
@@ -11,4 +11,15 @@ entries:
     urls:
     - pihole-0.2.0.tgz
     version: 0.2.0
-generated: "2023-03-14T13:04:04.623815-05:00"
+  speedtest:
+  - apiVersion: v2
+    appVersion: latest
+    created: "2023-08-13T14:40:19.972921-05:00"
+    description: An internet speed monitor with accompanying dashboard.
+    digest: be805102d65c859f4fc213376f58137c15427f9cd289882dc80a8d8bf8f7165c
+    name: speedtest
+    type: application
+    urls:
+    - speedtest-0.1.0.tgz
+    version: 0.1.0
+generated: "2023-08-13T14:40:19.969676-05:00"
