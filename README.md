@@ -12,6 +12,10 @@ To add this repo and install one of its charts:
 ```shell
 helm repo add santisbon https://santisbon.github.io/charts/
 
-helm install my-pihole santisbon/pihole --version 0.2.0
-# or directly from https://santisbon.github.io/charts/pihole-0.2.0.tgz
+helm install $RELEASE $CHART --version $VERSION -n $NAMESPACE
+# or directly from https://santisbon.github.io/charts/<.tgz file>
 ```
+
+More details:  
+* [Pi-hole](https://github.com/santisbon/pi-hole-k8s)  
+* [speedtest](https://github.com/santisbon/speedtest)  
