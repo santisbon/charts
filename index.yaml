@@ -3,7 +3,24 @@ entries:
   ev:
   - apiVersion: v2
     appVersion: latest
-    created: "2023-08-31T01:09:38.797536-05:00"
+    created: "2023-09-02T08:45:35.558205-05:00"
+    dependencies:
+    - name: rabbitmq
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 12.x.x
+    - name: redis
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 18.x.x
+    description: A Mastodon bot for finding electric vehicle charging stations.
+    digest: 1b1f76710271d14d19f8685fa4f759c3548b9c3677b1d80ecff7924d42f3365e
+    name: ev
+    type: application
+    urls:
+    - ev-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    appVersion: latest
+    created: "2023-09-02T08:45:35.551876-05:00"
     dependencies:
     - name: rabbitmq
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -21,7 +38,7 @@ entries:
   pihole:
   - apiVersion: v2
     appVersion: latest
-    created: "2023-08-31T01:09:38.797768-05:00"
+    created: "2023-09-02T08:45:35.559048-05:00"
     description: A Helm chart for installing Pi-hole on Kubernetes
     digest: 75c5264347ce0fe7277dba2800c92a21ae8946ca8d3b9caaf7dfb836eda37b49
     name: pihole
@@ -32,7 +49,7 @@ entries:
   speedtest:
   - apiVersion: v2
     appVersion: latest
-    created: "2023-08-31T01:09:38.798013-05:00"
+    created: "2023-09-02T08:45:35.560175-05:00"
     description: An internet speed monitor with accompanying dashboard.
     digest: be805102d65c859f4fc213376f58137c15427f9cd289882dc80a8d8bf8f7165c
     name: speedtest
@@ -40,4 +57,4 @@ entries:
     urls:
     - speedtest-0.1.0.tgz
     version: 0.1.0
-generated: "2023-08-31T01:09:38.790133-05:00"
+generated: "2023-09-02T08:45:35.543626-05:00"
